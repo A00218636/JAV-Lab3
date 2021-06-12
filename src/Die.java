@@ -61,21 +61,7 @@ public class Die {
        return matchedIndicator;
     }
       
-    Boolean RollTillAllSame()
-    {
-        Boolean matchedIndicator=false;
-        while(true)
-        {
-            int sideup =  RollTheDie(6);
-            rollCount=rollCount+1;
-            if(sideup == target)
-            {
-            matchedIndicator = true;
-            break;
-            }
-        }
-       return matchedIndicator;
-    }
+  
 }
     
 
